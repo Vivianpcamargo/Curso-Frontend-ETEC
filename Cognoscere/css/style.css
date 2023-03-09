@@ -1,0 +1,121 @@
+@font-face {
+  font-family: 'Corn Demo';
+  src: url("../font/CornDemo-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'Comfortaa';
+  src: url("../font/Comfortaa-Regular.ttf");
+}
+
+body {
+  background: black;
+  margin: 0px 0px 0px 0px;
+  font-family: 'Comfortaa';
+  color: white;
+}
+
+#menu {
+  background-color: #641D3D;
+  overflow: hidden;
+  width: 98%;
+  padding: 0% 1% 0% 1%;
+  margin: auto;
+  justify-content: space-between;
+}
+
+#submenu {
+  background-color: #641D3D;
+  overflow: hidden;
+  width: 98%;
+  padding: 0% 1% 0% 1%;
+  margin: 0% 0% 5% 0%;
+}
+
+#options-menu a {
+  color: #f2f2f2;
+  padding: 10px 18px;
+  text-decoration: none;
+}
+
+#options-menu a:hover {
+  color: white;
+}
+
+#options-menu a.active {
+  color: white;
+}
+
+.grade {
+  display: grid;
+  font-size: 12px;
+  margin: 1%;
+}
+
+.topico {
+  align-items: center;
+  font-size: 12px;
+  margin: 5%;
+}
+
+div {
+  display: flex;
+  justify-content: space-evenly;
+}
+
+a {
+  display: block;
+  margin: auto;
+}
+
+h1 {
+  font-family: 'Corn Demo';
+  text-align: center;
+  font-size: 40;
+}
+
+h2 {
+  text-align: center;
+  font-size: 40px;
+  margin-top: 5%;
+}
+
+h3 {
+  text-align: center;
+}
+
+p {
+  text-align: justify;
+  font-size: 17px;
+  margin: 10px 0px 10px 0px;
+}
+
+img {
+  margin: 1%;
+}
+
+.img-left {
+  width: 350px;
+  height: 250px;
+}
+
+.img-right {
+  width: 280px;
+  height: 320px;
+}
+
+li {
+  font-size: 30px;
+  margin: 30px 120px 30px 150px;
+  font-weight: indent;
+  text-align: left;
+}
+
+#footer {
+  background-color: #641D3D;
+  width: 98%;
+  padding: 1% 1% 1% 1%;
+  margin: 5% 0% 0% 0%;
+  justify-content: space-around;
+  font-size: large;
+}

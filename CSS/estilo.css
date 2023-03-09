@@ -1,0 +1,31 @@
+/* CSS Document */
+
+body {
+    background: #00FF66;
+    font-family: Verdana, Geneva, sans-serif;
+    text-align: center;
+}
+
+h3 {
+    color: #FFFFFF;
+    background: #000000;
+}
+
+p {
+    text-align: justify;
+    background: #FFFFFF;
+    height: 200px;
+    width: 950px;
+    border-radius: 20px;
+}
+
+#minhacaixa {
+    text-align: justify;
+    background: #FFFFFF;
+    height: 200px;
+    width: 400px;
+    border-radius: 20px;
+    float: left;
+    position: relative;
+    border: 2px solid black;
+}
