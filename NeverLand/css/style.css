@@ -1,0 +1,165 @@
+@font-face {
+  font-family: 'Comfortaa';
+  src: url("../font/Comfortaa-Regular.ttf");
+}
+
+@font-face {
+  font-family: 'waltograph';
+  src: url("../font/waltograph42.ttf");
+}
+
+@font-face {
+  font-family: 'Magneto';
+  src: url("../font/Magneto.ttf");
+}
+
+body {
+  background-image: url('../img/home/fundo.png');
+  background-size: 100%;
+  background-position: center;
+  background-attachment: fixed;
+  margin: 0px 0px 0px 0px;
+  font-family: 'Comfortaa';
+  margin: 0%;
+  color: black;
+}
+
+#image-menu {
+  margin: 0%;
+  position: relative;
+  height: 20vh;
+  width: 100vw;
+}
+
+#menu {
+  display: inline-block;
+  overflow: hidden;
+  width: 100%;
+  margin: auto;
+  background-color: #696969;
+}
+
+#options-menu {
+  font-family: 'waltograph';
+  font-size: 30;
+  text-decoration: none;
+  color: #B7E5D4;
+}
+
+#options-menu a:hover {
+  color: white;
+}
+
+#options-menu a.active {
+  background-color: #B7E5D4;
+  color: white;
+}
+
+.grade {
+  display: grid;
+  font-size: 12px;
+  margin: 1%;
+  padding: 0% 5% 0% 5%;
+  justify-items: stretch;
+}
+
+.topico {
+  background-color: white;
+  font-size: 12px;
+  margin: 5%;
+  padding: 2%;
+}
+
+div {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+a {
+  justify-content: space-between;
+  font-family: 'waltograph';
+  font-size: 40px;
+  text-decoration: none;
+  color: #B7E5D4;
+  display: block;
+  margin: auto;
+}
+
+#banner {
+  width: 600px;
+  height: 600px;
+}
+
+.logo {
+  width: 200px;
+  height: 200px;
+}
+
+h1 {
+  font-size: 45px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 50px;
+  text-align: center;
+  font-family: 'Magneto';
+}
+
+h3 {
+  font-size: 20px;
+  text-align: justify;
+}
+
+img {
+  margin: 2%;
+  height: 440px;
+  width: 580px;
+}
+
+form {
+  font-size: 30px;
+  margin: 0% 10% 10% 10%;
+}
+
+input {
+  font-family: 'Comfortaa';
+  font-size: 20px;
+  margin: 1%;
+}
+
+textarea {
+  font-family: 'Comfortaa';
+  width: 90%;
+  height: 100px;
+  padding: 12px 20px;
+  box-sizing: border-box;
+  border: 2px solid #ccc;
+  border-radius: 4px;
+  background-color: white;
+  font-size: 16px;
+  resize: none;
+  margin: 2%;
+}
+
+button {
+  background-color: #4CAF50;
+  text-decoration: none;
+  border: none;
+  color: white;
+  padding: 15px 32px;
+  font-size: 18px;
+  float: right;
+}
+
+#button-to-top {
+  width: 50px;
+  height: 50px;
+  display: scroll;
+  position: fixed;
+  bottom: 2%;
+  right: 1%;
+  margin: 0%;
+}
